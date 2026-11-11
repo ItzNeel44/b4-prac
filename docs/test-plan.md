@@ -1,14 +1,15 @@
 # Seat Reservations: Test Plan
 
-Complete exactly one test case for each target method below. Use `N/A` where a
-column does not apply. In **Case Origin**, name the specific acceptance
-criterion (e.g. `US-03-AC-01`), Javadoc contract condition, or implementation
-branch the case came from.
+Same template as the project test plans, except the **Acceptance Criteria**
+column is replaced by **Case Origin**. Give exactly one case for each target
+method (test `SetSeatReservations` only). Use `N/A` where a column does not
+apply. Case Origin can be an acceptance criterion (e.g. `US-07-AC-02`), a Javadoc
+contract condition, or "white box: <method/branch>".
 
-| # | Target Method | Input State | Method Inputs | Expected Output | Expected Output State | Case Origin |
-|---|---------------|-------------|---------------|-----------------|-----------------------|-------------|
-| 1 | `reserveSeat` | | | | | |
-| 2 | `cancelReservation` | | | | | |
-| 3 | `getAvailableSeatCount` | | | | | |
-| 4 | `reserveFirstAvailable` | | | | | |
-| 5 | `isSoldOut` | | | | | |
+| Test # | Test Name | Method Input | Expected Method Output | Input State | Expected Output State | Case Origin |
+|--------|-----------|--------------|------------------------|-------------|-----------------------|-------------|
+| B1 | testIsSoldOut_ | | | | | |
+| B2 | testIsReserved_ | | | | | |
+| B3 | testCancelReservation_ | | | | | |
+| B4 | testReserveFirstAvailable_ | | | | | |
+| B5 | testGetAvailableSeatCount_ | | | | | |

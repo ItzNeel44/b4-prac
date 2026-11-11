@@ -50,11 +50,11 @@ IntelliJ making suggestions when you have an error (by hovering over the error l
 Complete [`docs/test-plan.md`](docs/test-plan.md) with exactly one test case for each of
 these five methods specifically:
 
-1. `reserveSeat`
-2. `cancelReservation`
-3. `getAvailableSeatCount`
+1. `isSoldOut`
+2. `isReserved`
+3. `cancelReservation`
 4. `reserveFirstAvailable`
-5. `isSoldOut`
+5. `getAvailableSeatCount`
 
 Choose a specific case for each target. Describe the method inputs, expected
 outputs, input state, and expected output state. Use `N/A`
@@ -81,7 +81,7 @@ Create the JUnit tests you specified in your test plan within `SetSeatReservatio
     - Not asserting anything
     - Not testing anything even remotely related to what you're supposed to be testing.
 
-The observation methods `getSeatCount` and `isReserved` may be used in your tests.
+The observation methods `getSeatCount` and `reserveSeat` may be used in your tests.
 You do not need to create separate test cases for them.
 
 ## Submission
